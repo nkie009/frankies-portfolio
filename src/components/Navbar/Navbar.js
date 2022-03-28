@@ -8,7 +8,7 @@ export default function Navbar({menuOpen, setMenuOpen}) {
     <div className={'navbar ' + (menuOpen && 'active')}>
       <div className='wrapper'>
         <div className='left'>
-          <a href="#myContact" className='logo'>My logo</a>
+          <a href="#myContact" className='logo'>F . T</a>
           <div className='itemGroup'>
             <Email className='icon' />
             <span className='email'>frankie.tsoi.yh@gmail.com</span>

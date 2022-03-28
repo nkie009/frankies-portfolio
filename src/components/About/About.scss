@@ -1,15 +1,69 @@
-.about{
+@import "../../main.scss";
+
+.about {
   background-color: white;
   display: flex;
-  overflow: hidden;
-  .image{
 
-    width: 100%;
-    
-  
-    .proPic{
-      width: 100vw;
+  // overflow: hidden;
+
+  .leftAbout {
+    flex: 0.5;
+    overflow: hidden;
+    background-color: $mainColor;
+
+    .image {
+      width: 700px;
+      height: 700px;
+      text-align: left;
+
+      .proPic {
+        height: 100vh;
+      }
     }
-  
+    
+  }
+  .rightAbout {
+    flex: 0.5;
+    position: relative;
+    .wrapper {
+      width: 100%;
+      height: 100%;
+      padding-left: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h1 {
+        font-size: 8rem;
+        margin: 10px 0;
+      }
+      h2 {
+        font-size: 4rem;
+      }
+      h3 {
+        font-size: 2.2rem;
+
+        span {
+          font-size: inherit;
+          color: rgb(65, 173, 73);
+        }
+      }
+      .paraAbout{
+        font-size: 27px;
+
+      }
+    }
+    a {
+      position: absolute;
+      bottom: 10px;
+      left: 40%;
+
+      .downArrow {
+        width: 4rem;
+      }
+      .downArrow:hover {
+        height: 6.5rem;
+      }
+    }
   }
 }
