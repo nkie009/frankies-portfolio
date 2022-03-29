@@ -4,7 +4,13 @@ import './Skills.scss'
 export default function Skills() {
   return (
     <div className="skills" id="mySkills">
-      my skills
+      <div className="skillTable">
+
+       <img src="assets/AI.jpg" alt="aiLogo"/>
+
+
+
+      </div>
     </div>
   )
 }
