@@ -5,9 +5,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+
+  .arrow{
+    position: absolute;
+    height: 7rem;
+    cursor: pointer;
+    
+    &.left{
+      left: 100px
+    }
+    &.right{
+      right: 100px;
+      transform: rotateY(180deg);
+    }
+  }
 
   .slider {
-    height: 350px;
+    height: 500px;
     display: flex;
     position: absolute;
     left: 0;
@@ -17,9 +32,9 @@
       align-items: center;
       justify-content: center;
       .works {
-        width: 900px;
+        width: 55vw;
         height: 100%;
-        background-color: $mainColor;
+        background-color: white;
         border-radius: 10px;
         display: flex;
         align-items: center;
@@ -73,8 +88,12 @@
           display: flex;
           align-items: center;
           justify-content: center;
-
-          // background-color: yellow;
+          overflow: hidden;
+          img{
+            width: 27rem;
+            transform: rotate(-10deg);
+          }
+          
         }
       }
     }
