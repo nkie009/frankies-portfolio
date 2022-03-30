@@ -35,7 +35,7 @@ export default function Projects() {
 
   };
 
-
+  
 
   return (
     <div className="projects" id="myProjects">
@@ -49,7 +49,7 @@ export default function Projects() {
                 <div className="leftContainer">
                   <h2>{d.title}</h2>
                   <p>{d.des}</p>
-                  <span>live link</span>
+                  <span onClick={() => window.open(d.link)}>live link</span>
                 </div>
               </div>
               <div className="rightPro">
