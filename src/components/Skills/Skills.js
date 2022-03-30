@@ -6,7 +6,7 @@ export default function Skills() {
     <div className="skills" id="mySkills">
     
       <div className="skillTable">
-      <h1>my Skills</h1>
+      
       <div className="codingSkills">
         <img src="assets/HTML5_logo.svg" alt="htmlLogo"/>
         <img src="assets/CSS3_logo.svg" alt="cssLogo"/>
@@ -21,8 +21,8 @@ export default function Skills() {
         <img src="assets/AI.svg" alt="aiLogo"/>
         <img src="assets/indesign.svg" alt="indesignLogo"/>
         <img src="assets/PS.svg" alt="psLogo"/>
-        <img src="assets/Rhino.svg" alt="rhinoLogo"/>
         <img src="assets/Sketchup.svg" alt="sketchupLogo"/>
+        <img src="assets/Rhino.svg" alt="rhinoLogo"/>
         <img src="assets/Vray.svg" alt="vrayLogo"/>
       </div>
 
