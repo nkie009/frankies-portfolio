@@ -30,7 +30,7 @@ export default function Contact() {
           />
         </div>
       </div>
-      <p>frankie designed &copy;</p>
+      <p>frankie designed 2022</p>
     </div>
   );
 }
