@@ -1,3 +1,5 @@
+@import "../../main.scss";
+
 .contact {
 
   background-color: lightblue;
@@ -6,12 +8,19 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+
   .containerContact{
     // border: 3px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 700px;
+    
+    .email{
+      font-size: clamp(0.7rem, 3vw, 1.2rem);
+    }
+
     img {
       width: 50px;
       cursor: pointer;

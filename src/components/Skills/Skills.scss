@@ -1,3 +1,5 @@
+@import "../../main.scss";
+
 .skills{
   display: flex;
   align-items: center;
@@ -13,11 +15,12 @@
     justify-content: center;
     border-radius: 20px;
     box-shadow: 0 8px 20px black;
+    
 
 
     img{
-      width: 7rem;
-      margin: 1rem;
+      width: clamp(3rem, 13vw, 7rem);
+      margin: 0.5rem;
     }
     .codingSkills{
       margin-top: 4rem;

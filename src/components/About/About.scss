@@ -4,6 +4,10 @@
   background-color: white;
   display: flex;
   
+  @include mobile {
+    flex-direction: column;
+    align-items: center;
+  }
   
   .leftAbout {
     flex: 0.5;
@@ -16,12 +20,8 @@
       display: flex;
       align-items: center;
       justify-content: center;
-
-      
-
       .proPic {
-        width: 100vw;
-        
+        width: clamp(4rem, 50vw, 70rem);
       }
     }
     
@@ -36,13 +36,27 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+      @include mobile {
+        align-items: center;
+        overflow: hidden;
+        padding-left: clamp(1.2rem, 5vw, 2.9rem);
+      }
 
       h1 {
-        font-size: 8rem;
+        font-size: 7rem;
         margin: 10px 0;
+        @include mobile {
+          font-size: clamp(3rem, 13vw, 6rem);
+          overflow: hidden;
+        }
       }
       h2 {
         font-size: 4rem;
+        @include mobile {
+          font-size: clamp(2rem, 10vw, 5rem);
+          overflow: hidden;
+          margin-top: 10px;
+        }
       }
       h3 {
         font-size: 2.2rem;
@@ -51,11 +65,20 @@
           font-size: inherit;
           color: rgb(65, 173, 73);
         }
+
+        @include mobile {
+          font-size: clamp(0.7rem, 4vw, 1.7rem);
+          overflow: hidden;
+          
+        }
       }
       .paraAbout{
-        font-size: 27px;
+        font-size: 2rem;
         margin-top: 1rem;
-        line-height: 2rem;
+        line-height: 2.2rem;
+        @include mobile {
+          font-size: clamp(0.7rem, 3vw, 2rem);
+        }
         
 
       }
@@ -70,6 +93,9 @@
       }
       .downArrow:hover {
         height: 6.5rem;
+      }
+      @include mobile{
+        display: none;
       }
     }
   }

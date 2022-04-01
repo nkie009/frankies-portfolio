@@ -1,2 +1,10 @@
 $mainColor: lightblue;
-$closeColor: rgb(25, 20, 114)
+$closeColor: rgb(25, 20, 114);
+$width: 768px;
+$height: 768;
+
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}

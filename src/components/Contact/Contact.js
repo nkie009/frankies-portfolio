@@ -9,10 +9,7 @@ export default function Contact() {
           <h2>frankie.tsoi.yh@gmail.com</h2>
         </div>
         <div className="linkedin">
-          <img
-            className="linkinlogo"
-            src="assets/linkedin.svg"
-            alt="linkedinLogo"
+          <img className="linkinlogo" src="assets/linkedin.svg" alt="linkedinLogo"
             onClick={() =>
               window.open(`https://www.linkedin.com/in/frankie-tsoi/`)
             }

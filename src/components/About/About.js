@@ -21,9 +21,6 @@ export default function About() {
           </h3>
           <div className="paraAbout">I am a junior software engineer with a passion for the front-end field and have 10+ years of Graphic Design experience on my belt. Looking to join a fun and dynamic team which is working on exciting projects.</div>
         </div>
-        <a href="#myProjects">
-          <img className="downArrow" src="assets/arrow.svg" alt="downArrow" />
-        </a>
       </div>
 
 
