@@ -1,7 +1,6 @@
 import Navbar from './components/Navbar/Navbar';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
-import GraphicProjects from './components/GraphicProjects/GraphicProjects';
 import Skills from './components/Skills/Skills';
 import Contact from './components/Contact/Contact';
 import Menu from './components/Menu/Menu';
